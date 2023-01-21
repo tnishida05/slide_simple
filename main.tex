@@ -21,11 +21,11 @@
 }
 
 %% 節先頭毎に目次を追加
-%\AtBeginSection[]{
-  %\begin{frame}[noframenumbering,plain]{\insertsectionhead}{}
-    %\tableofcontents[currentsection]
-  %\end{frame}
-%}
+\AtBeginSection[]{
+  \begin{frame}[noframenumbering,plain]{\insertsectionhead}{}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
 
 %% ここから本文
 \begin{document}
